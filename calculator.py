@@ -22,10 +22,9 @@ def divide(a, b):
         return "Zero Division Error"
 
 def logarithm(a, b):
-    try:
-        return math.log(b, a)
-    except ValueError:
-        return "Value Error"
+    if a <= 0 or a == 1 or b <= 0:
+        raise ValueError
+    return math.log(b,a)
 
 def exponent(a, b):
     return a**b
