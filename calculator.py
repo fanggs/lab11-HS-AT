@@ -1,3 +1,7 @@
+#Github link: https://github.com/fanggs/lab11-HS-AT.git
+#Partner 1: Hector Salvatierra
+#Partner 2: Alan Tran
+
 import math
 """
 calculator.py
